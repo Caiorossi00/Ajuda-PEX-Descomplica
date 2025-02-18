@@ -5,6 +5,7 @@
  O conteúdo foi organizado com base em experiências pessoais e informações disponíveis, visando tornar o processo mais acessível para todos.
 Se este material foi útil para você, gostou da iniciativa e quer retribuir a gentileza, peço que me siga no instagram profissional clicando no link abaixo:
 <a href="https://www.instagram.com/Caiorossi.dev" target="_blank">@Caiorossi.dev</a>
+ <br>
 Deixo, também, algumas formas de contato, caso alguém precise de um auxílio ou queira entrar em contato comigo: 
 <ul>
   <li><a href="https://wa.me/5535984158694" target="_blank">Whatsapp: 5553984158694</a></li>
