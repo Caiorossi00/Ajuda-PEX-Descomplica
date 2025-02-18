@@ -8,8 +8,8 @@ Se este material foi útil para você, gostou da iniciativa e quer retribuir a g
  <br>
 Deixo, também, algumas formas de contato, caso alguém precise de um auxílio ou queira entrar em contato comigo: 
 <ul>
-  <li><a href="https://wa.me/5535984158694" target="_blank">Whatsapp: 5553984158694</a></li>
-  <li><a href="https://www.linkedin.com/in/caio-rossi-dev/" target="_blank">Linkedin: Caio Rossi</a></li>
+  <li><a href="https://wa.me/5553984158694" target="_blank">Whatsapp</a></li>
+  <li><a href="https://www.linkedin.com/in/caio-rossi-dev/" target="_blank">Linkedin</a></li>
 </ul>
 </p>
 
