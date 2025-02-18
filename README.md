@@ -10,6 +10,8 @@ Deixo, também, algumas formas de contato, caso alguém precise de um auxílio o
 <ul>
   <li><a href="https://wa.me/5553984158694" target="_blank">Whatsapp</a></li>
   <li><a href="https://www.linkedin.com/in/caio-rossi-dev/" target="_blank">Linkedin</a></li>
+   <li><a href="https://www.instagram.com/caiorossi.dev" target="_blank">Instagram</a></li>
+
 </ul>
 </p>
 
