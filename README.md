@@ -18,3 +18,4 @@ Deixo, também, algumas formas de contato, caso alguém precise de um auxílio o
 <hr>
 Kanban PEX Descomplica
 <img src="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/Kanban%20PEX%20Descomplica%20-%20@CaioRossi.dev.png?raw=true"/>
+<hr>
