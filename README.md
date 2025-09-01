@@ -19,6 +19,7 @@ Deixo, também, algumas formas de contato, caso alguém precise de um auxílio o
 <h2>Guia PDF do PEX</h2>
 <p>Para facilitar o entendimento do projeto de extensão, preparei um PDF explicativo com instruções detalhadas sobre como desenvolver e organizar seu PEX. Você pode baixar ou visualizar o arquivo clicando no link abaixo:</p>
 <p><a href="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/Aux%C3%ADlio%20PEX%20Descomplica%20-%20%40CaioRossi.dev%20.pdf" target="_blank">Baixar/Visualizar PDF do PEX</a></p>
+<br>
 <p align="center">
   <img src="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/PexPDF.png?raw=true" alt="Capa do PDF"/>
 </p>
