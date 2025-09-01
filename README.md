@@ -27,8 +27,18 @@ Deixo, também, algumas formas de contato, caso alguém precise de um auxílio o
 
 <h2>Gerador de PEX</h2>
 <p>Além das informações compiladas neste repositório, você pode utilizar o <strong>Gerador de PEX</strong>, um aplicativo desenvolvido por mim, para gerar relatórios de forma rápida e prática.</p>
-<img src="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/GeradorDePex.png?raw=true" alt="Gerador de pex hero"/>
-<img src="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/GeradorDePex1.png?raw=true" alt="Display do relatório"/>
+<p align="center">
+  <a href="https://geradordepex.vercel.app/" target="_blank">
+    <img src="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/GeradorDePex.png?raw=true" alt="Gerador de PEX Hero"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://geradordepex.vercel.app/" target="_blank">
+    <img src="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/GeradorDePex1.png?raw=true" alt="Display do relatório"/>
+  </a>
+</p>
+
 <h3>Funcionalidades:</h3>
 <ul>
   <li><strong>Formulário Interativo:</strong> Preencha um conjunto de perguntas através de um formulário dinâmico, avançando pelas etapas até completar o processo.</li>
