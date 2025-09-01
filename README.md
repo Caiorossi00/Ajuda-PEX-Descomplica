@@ -38,6 +38,6 @@ Deixo, também, algumas formas de contato, caso alguém precise de um auxílio o
 <a href="https://geradordepex.vercel.app" target="_blank">Gerador de PEX</a></p>
 <br>
 
-<h3>Kanban PEX Descomplica</h3>
+<h2>Kanban PEX Descomplica</h2>
 <img src="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/Kanban%20PEX%20Descomplica%20-%20@CaioRossi.dev.png?raw=true" alt="Kanban PEX Descomplica"/>
 <hr>
