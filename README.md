@@ -17,15 +17,18 @@ Deixo, também, algumas formas de contato, caso alguém precise de um auxílio o
 <hr>
 
 <h2>Ferramentas</h2>
-<h3>Kanban PEX Descomplica</h3>
-<img src="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/Kanban%20PEX%20Descomplica%20-%20@CaioRossi.dev.png?raw=true" alt="Kanban PEX Descomplica"/>
-<hr>
+<h2>Guia PDF do PEX</h2>
+<p>Para facilitar o entendimento do projeto de extensão, preparei um PDF explicativo com instruções detalhadas sobre como desenvolver e organizar seu PEX. Você pode baixar ou visualizar o arquivo clicando no link abaixo:</p>
+
+<p><a href="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/Aux%C3%ADlio%20PEX%20Descomplica%20-%20%40CaioRossi.dev.pdf?raw=true" target="_blank">Baixar/Visualizar PDF do PEX</a></p>
+
+<img src="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/PexPDF.png?raw=true" alt="Capa do pdf"/>
 
 <h2>Gerador de PEX</h2>
 <p>Além das informações compiladas neste repositório, você pode utilizar o <strong>Gerador de PEX</strong>, um aplicativo desenvolvido por mim, para gerar relatórios de forma rápida e prática.</p>
 
 <img src="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/GeradorDePex.png?raw=true" alt="Gerador de pex hero"/>
-<img src="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/GeradorDePex1.png?raw=true" alt="Gerador de pex hero"/>
+<img src="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/GeradorDePex1.png?raw=true" alt="Display do relatório"/>
 
 <h3>Funcionalidades:</h3>
 <ul>
@@ -36,3 +39,7 @@ Deixo, também, algumas formas de contato, caso alguém precise de um auxílio o
 
 <p>Você pode acessar e testar a ferramenta pelo link: 
 <a href="https://geradordepex.vercel.app" target="_blank">Gerador de PEX</a></p>
+
+<h3>Kanban PEX Descomplica</h3>
+<img src="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/Kanban%20PEX%20Descomplica%20-%20@CaioRossi.dev.png?raw=true" alt="Kanban PEX Descomplica"/>
+<hr>
