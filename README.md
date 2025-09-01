@@ -18,12 +18,12 @@ Deixo, também, algumas formas de contato, caso alguém precise de um auxílio o
 <br>
 <h2>Guia PDF do PEX</h2>
 <p>Para facilitar o entendimento do projeto de extensão, preparei um PDF explicativo com instruções detalhadas sobre como desenvolver e organizar seu PEX. Você pode baixar ou visualizar o arquivo clicando no link abaixo:</p>
-<p><a href="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/Aux%C3%ADlio%20PEX%20Descomplica%20-%20%40CaioRossi.dev%20.pdf" target="_blank">Baixar/Visualizar PDF do PEX</a></p>
-<br>
 <p align="center">
-  <img src="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/PexPDF.png?raw=true" alt="Capa do PDF"/>
+  <a href="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/Aux%C3%ADlio%20PEX%20Descomplica%20-%20%40CaioRossi.dev%20.pdf" target="_blank">
+    <img src="https://github.com/Caiorossi00/Ajuda-PEX-Descomplica/blob/main/PexPDF.png?raw=true" alt="Capa do PDF"/>
+  </a>
 </p>
-<br>
+
 
 <h2>Gerador de PEX</h2>
 <p>Além das informações compiladas neste repositório, você pode utilizar o <strong>Gerador de PEX</strong>, um aplicativo desenvolvido por mim, para gerar relatórios de forma rápida e prática.</p>
