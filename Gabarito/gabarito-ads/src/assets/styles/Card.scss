@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(167, 167, 167);
+  padding: 25px;
+  width: 350px;
+  font-family: "poppins", sans-serif;
+  border-radius: 8px;
+
+  h3 {
+    border: 1px solid black;
+    padding: 6px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    font-size: small;
+    border-radius: 4px;
+    margin-bottom: 1.5vh;
+  }
+
+  h1 {
+    font-weight: bold;
+    width: 60%;
+    font-size: 1.5em;
+    margin-bottom: 3px;
+    letter-spacing: -1px;
+  }
+
+  ul {
+    margin-bottom: 2vh;
+  }
+
+  li {
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+  }
+
+  button {
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    letter-spacing: -1px;
+  }
+}

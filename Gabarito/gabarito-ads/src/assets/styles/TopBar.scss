@@ -1,0 +1,30 @@
+#top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#module-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  select {
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    background-color: none;
+    cursor: pointer;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    font-size: 1.4em;
+    letter-spacing: -1px;
+
+    &:focus {
+      outline: none;
+      border-color: black;
+      font-weight: bold;
+    }
+  }
+}
