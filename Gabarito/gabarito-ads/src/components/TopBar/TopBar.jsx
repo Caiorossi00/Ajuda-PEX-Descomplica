@@ -3,11 +3,11 @@ import ModuleTitle from "./ModuleTitle";
 import SearchBar from "./SearchBar";
 import "../../assets/styles/TopBar.scss";
 
-const TopBar = ({ onSelect }) => {
+const TopBar = ({ onSelect, onSearch }) => {
   return (
     <div id="top-bar">
       <ModuleTitle onSelect={onSelect} />
-      <SearchBar />
+      <SearchBar onSearch={onSearch} />
     </div>
   );
 };

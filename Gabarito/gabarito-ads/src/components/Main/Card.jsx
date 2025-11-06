@@ -2,9 +2,9 @@ import React from "react";
 import "../../assets/styles/Card.scss";
 
 const Card = ({ tema, modulo }) => {
-  const totalExercicios = tema.exercicios.length;
-  const totalPenseEResponda = tema.penseEResponda.length;
-  const totalListas = tema.listaDeRevisao.length;
+  const totalExercicios = tema.subtemas?.length || 0;
+  const totalPenseEResponda = tema.penseEResponda?.length || 0;
+  const totalListas = tema.listaDeRevisao?.length || 0;
 
   return (
     <div className="card">

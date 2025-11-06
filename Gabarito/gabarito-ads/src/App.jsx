@@ -6,23 +6,27 @@ import "./assets/styles/App.css";
 
 function App() {
   const [selectedModule, setSelectedModule] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
 
-  // Se "Todos os módulos" for selecionado, mostra tudo.
-  // Caso contrário, encontra o módulo específico.
   const selected = selectedModule
     ? gabarito.find((modulo) => modulo.id === selectedModule)
     : null;
 
-  // Monta a lista final de temas para renderização
-  const allTemas = selected
+  let allTemas = selected
     ? selected.temas.map((tema) => ({ ...tema, modulo: selected.modulo }))
     : gabarito.flatMap((modulo) =>
         modulo.temas.map((tema) => ({ ...tema, modulo: modulo.modulo }))
       );
 
+  if (searchTerm.trim() !== "") {
+    allTemas = allTemas.filter((tema) =>
+      tema.titulo.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+  }
+
   return (
     <div id="App">
-      <TopBar onSelect={setSelectedModule} />
+      <TopBar onSelect={setSelectedModule} onSearch={setSearchTerm} />
 
       <div id="main">
         {allTemas.length > 0 ? (

@@ -1,9 +1,16 @@
 import React from "react";
+import { Search } from "lucide-react";
+import "../../assets/styles/SearchBar.scss";
 
-const SearchBar = () => {
+const SearchBar = ({ onSearch }) => {
+  const handleChange = (event) => {
+    onSearch(event.target.value);
+  };
+
   return (
-    <div>
-      <input type="text" placeholder="Search..." />
+    <div id="search-bar">
+      <Search className="search-icon" size={18} />
+      <input type="text" placeholder="Buscar tema" onChange={handleChange} />
     </div>
   );
 };

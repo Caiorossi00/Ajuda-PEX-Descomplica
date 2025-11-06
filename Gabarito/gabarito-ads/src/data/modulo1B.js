@@ -4,39 +4,89 @@ export const modulo1B = {
   temas: [
     {
       id: 1,
-      titulo: "Programação Assíncrona",
-      exercicios: [
-        { numero: 1, resposta: "A" },
-        { numero: 2, resposta: "D" },
-        { numero: 3, resposta: "B" },
-      ],
-      penseEResponda: [
+      titulo: "Empreendedorismo e Criação de Novos Negócios",
+      subtemas: [
+        { id: 1, titulo: "Empreender ou não, eis a questão!", exercicios: [] },
         {
-          numero: 1,
-          resposta:
-            "Promises permitem lidar com operações assíncronas de forma mais previsível.",
+          id: 2,
+          titulo: "Empreendedorismo e Suas Características",
+          exercicios: [],
         },
+        { id: 3, titulo: "Perfil do Empreendedor", exercicios: [] },
+        { id: 4, titulo: "Sendo empreendedor no Brasil", exercicios: [] },
+        {
+          id: 5,
+          titulo: "Crise e oportunidades no empreendedorismo",
+          exercicios: [],
+        },
+        { id: 6, titulo: "Mapeando oportunidade de negócios", exercicios: [] },
+        {
+          id: 7,
+          titulo: "Recursos tecnológicos no empreendedorismo",
+          exercicios: [],
+        },
+        { id: 8, titulo: "Ferramentas do Plano de Negócio", exercicios: [] },
+        { id: 9, titulo: "A estrutura do plano de negócios", exercicios: [] },
+        {
+          id: 10,
+          titulo: "Comércio Eletrônico x Empreendedorismo",
+          exercicios: [],
+        },
+        { id: 11, titulo: "Conceitos do Plano de Marketing", exercicios: [] },
+        { id: 12, titulo: "4 P´s de Marketing", exercicios: [] },
+        {
+          id: 13,
+          titulo: "Planejamento Financeiro do Empreendedor",
+          exercicios: [],
+        },
+        {
+          id: 14,
+          titulo: "Conceitos e definições do Plano Operacional",
+          exercicios: [],
+        },
+        {
+          id: 15,
+          titulo: "Caminhos para facilitar a criação de um novo negócio",
+          exercicios: [],
+        },
+        { id: 16, titulo: "Novos tipos de empreendedores", exercicios: [] },
       ],
+      penseEResponda: [],
       listaDeRevisao: [
-        { numero: 1, resposta: "C" },
-        { numero: 2, resposta: "B" },
+        { numero: 1, resposta: "LR1" },
+        { numero: 2, resposta: "LR2" },
       ],
     },
     {
       id: 2,
-      titulo: "APIs e Fetch",
-      exercicios: [
-        { numero: 1, resposta: "E" },
-        { numero: 2, resposta: "A" },
-      ],
-      penseEResponda: [
+      titulo: "Lógica de Programação",
+      subtemas: [
+        { id: 1, titulo: "Introdução à Algoritmos", exercicios: [] },
         {
-          numero: 1,
-          resposta:
-            "Fetch é usado para realizar requisições HTTP e retornar Promises com os dados da resposta.",
+          id: 2,
+          titulo: "Tipos de Dados e Instruções Primitivas",
+          exercicios: [],
         },
+        { id: 3, titulo: "Variáveis e Constantes", exercicios: [] },
+        { id: 4, titulo: "Entrada, Processamento e Saída", exercicios: [] },
+        { id: 5, titulo: "Estruturas de Decisão", exercicios: [] },
+        { id: 6, titulo: "Estruturas de Repetição", exercicios: [] },
+        { id: 7, titulo: "Vetor", exercicios: [] },
+        { id: 8, titulo: "Matriz", exercicios: [] },
+        { id: 9, titulo: "Introdução ao Java", exercicios: [] },
+        { id: 10, titulo: "Sintaxe do Java", exercicios: [] },
+        { id: 11, titulo: "Operadores em Java", exercicios: [] },
+        { id: 12, titulo: "Entrada e saída de dados", exercicios: [] },
+        { id: 13, titulo: "Instruções em Java", exercicios: [] },
+        { id: 14, titulo: "Funções", exercicios: [] },
+        { id: 15, titulo: "Mecanismos de Busca", exercicios: [] },
+        { id: 16, titulo: "Boas práticas de Mercado", exercicios: [] },
       ],
-      listaDeRevisao: [{ numero: 1, resposta: "D" }],
+      penseEResponda: [],
+      listaDeRevisao: [
+        { numero: 1, resposta: "LR1" },
+        { numero: 2, resposta: "LR2" },
+      ],
     },
   ],
 };
