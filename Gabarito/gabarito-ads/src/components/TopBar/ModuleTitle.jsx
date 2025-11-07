@@ -13,9 +13,7 @@ const ModuleTitle = ({ onSelect }) => {
     <div id="module-title">
       <select value={selectedModule} onChange={handleChange}>
         <option value="">Todos os módulos</option>
-        <option value="modulo1A">Módulo 1A</option>
-        <option value="modulo1B">Módulo 1B</option>
-        <option value="modulo2A">Módulo 2A</option>
+        <option value="modulo3B">Módulo 3B</option>
       </select>
     </div>
   );

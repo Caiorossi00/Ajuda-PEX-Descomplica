@@ -1,4 +1,3 @@
-import { modulo1A } from "./modulo1A";
-import { modulo1B } from "./modulo1B";
+import { modulo3B } from "./modulo3B";
 
-export const gabarito = [modulo1A, modulo1B];
+export const gabarito = [modulo3B];
