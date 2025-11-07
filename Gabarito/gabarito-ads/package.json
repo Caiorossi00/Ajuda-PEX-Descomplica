@@ -13,6 +13,7 @@
     "lucide-react": "^0.552.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.5",
     "sass": "^1.93.3"
   },
   "devDependencies": {

@@ -70,8 +70,8 @@ export const modulo3B = {
         },
       ],
       listaDeRevisao: [
-        { numero: 1, resposta: "A" },
-        { numero: 2, resposta: "A" },
+        { numero: 1, resposta: "Lorem Ipsum" },
+        { numero: 2, resposta: "Simet Dolor" },
       ],
     },
   ],

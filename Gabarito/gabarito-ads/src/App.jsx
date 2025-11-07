@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Card from "./components/Main/Card";
 import TopBar from "./components/TopBar/TopBar";
+import Respostas from "./components/Main/Respostas";
 import { gabarito } from "./data/gabarito";
 import "./assets/styles/App.css";
 
@@ -13,9 +15,17 @@ function App() {
     : null;
 
   let allTemas = selected
-    ? selected.temas.map((tema) => ({ ...tema, modulo: selected.modulo }))
+    ? selected.temas.map((tema) => ({
+        ...tema,
+        modulo: selected.modulo,
+        moduloId: selected.id,
+      }))
     : gabarito.flatMap((modulo) =>
-        modulo.temas.map((tema) => ({ ...tema, modulo: modulo.modulo }))
+        modulo.temas.map((tema) => ({
+          ...tema,
+          modulo: modulo.modulo,
+          moduloId: modulo.id,
+        }))
       );
 
   if (searchTerm.trim() !== "") {
@@ -25,25 +35,36 @@ function App() {
   }
 
   return (
-    <div id="App">
-      <TopBar onSelect={setSelectedModule} onSearch={setSearchTerm} />
+    <Router>
+      <div id="App">
+        <TopBar onSelect={setSelectedModule} onSearch={setSearchTerm} />
 
-      <div id="main">
-        {allTemas.length > 0 ? (
-          allTemas.map((tema) => (
-            <Card
-              key={`${tema.modulo}-${tema.id}`}
-              tema={tema}
-              modulo={tema.modulo}
-            />
-          ))
-        ) : (
-          <p style={{ textAlign: "center", width: "100%" }}>
-            Nenhum tema encontrado.
-          </p>
-        )}
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <div id="main">
+                {allTemas.length > 0 ? (
+                  allTemas.map((tema) => (
+                    <Card
+                      key={`${tema.moduloId}-${tema.id}`}
+                      tema={tema}
+                      modulo={{ id: tema.moduloId, modulo: tema.modulo }}
+                    />
+                  ))
+                ) : (
+                  <p style={{ textAlign: "center", width: "100%" }}>
+                    Nenhum tema encontrado.
+                  </p>
+                )}
+              </div>
+            }
+          />
+
+          <Route path="/:moduloId/:temaId" element={<Respostas />} />
+        </Routes>
       </div>
-    </div>
+    </Router>
   );
 }
 
