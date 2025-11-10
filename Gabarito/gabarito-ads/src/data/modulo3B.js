@@ -233,11 +233,61 @@ export const modulo3B = {
         },
       ],
       listaDeRevisao: [
-        { numero: 1, resposta: "A - I, II, III." },
-        { numero: 2, resposta: "B - II, III." },
-        { numero: 3, resposta: "C - I, IV." },
-        { numero: 4, resposta: "A - I, III, V." },
-        { numero: 5, resposta: "A - I, IV." },
+        {
+          numero: 1,
+          resposta: "A, B, C, A, A ",
+        },
+        {
+          numero: 2,
+          resposta: `A, A, A, A, A`,
+        },
+      ],
+    },
+    {
+      id: 2,
+      titulo: "Prática integradora Desenvolvimento de Apps",
+      subtemas: [
+        {
+          id: 1,
+          titulo: "Apresentação de conceitos e ferramentas básicas",
+          exercicios: [
+            {
+              numero: 1,
+              resposta:
+                "C - Implementar e testar funcionalidades sem afetar a produção",
+            },
+            {
+              numero: 2,
+              resposta: "B - É Fortemente tipada e orientada a objetos",
+            },
+            {
+              numero: 3,
+              resposta:
+                "C - ​Um conjunto de técnicas, ferramentas e conceitos pré-definidos para facilitar o desenvolvimento em Java.",
+            },
+            {
+              numero: 4,
+              resposta:
+                "C - Automatizar o gerenciamento de dependências e a construção de projetos.",
+            },
+            {
+              numero: 5,
+              resposta:
+                "B - ​Combinar diversas ferramentas de desenvolvimento em uma interface gráfica.",
+            },
+            { numero: 6, resposta: "A - ​I, III e V" },
+          ],
+        },
+      ],
+      listaDeRevisao: [
+        {
+          numero: 1,
+          resposta: "A, B, C, A, A ",
+        },
+        {
+          numero: 2,
+          resposta: `A, A, A, A, A`,
+        },
       ],
     },
   ],
